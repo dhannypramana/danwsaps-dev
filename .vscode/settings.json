@@ -115,7 +115,8 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "cSpell.words": [
-        "unplugin",
-        "unhead"
+        "nuxt",
+        "unhead",
+        "unplugin"
     ]
 }
