@@ -10,7 +10,9 @@
         "postinstall": "nuxt prepare",
         "typecheck": "nuxt typecheck",
         "lint": "eslint .",
-        "lint:fix": "eslint . --fix"
+        "lint:fix": "eslint . --fix",
+        "prepare": "husky",
+        "commit": "cz"
     },
     "dependencies": {
         "nuxt": "^4.4.8",
@@ -19,10 +21,20 @@
     },
     "devDependencies": {
         "@antfu/eslint-config": "^9.1.0",
+        "@commitlint/cli": "^21.2.0",
+        "@commitlint/config-conventional": "^21.2.0",
         "@types/node": "^26.1.0",
+        "commitizen": "^4.3.2",
+        "commitlint-config-cz": "^0.13.3",
+        "cz-conventional-changelog": "^3.3.0",
         "eslint": "^10.6.0",
         "eslint-plugin-format": "^2.0.1",
+        "husky": "^9.1.7",
+        "lint-staged": "^17.0.8",
         "typescript": "^6.0.3",
         "vue-tsc": "^3.3.6"
+    },
+    "lint-staged": {
+        "*": "eslint --fix"
     }
 }

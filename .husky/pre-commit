@@ -1,0 +1,4 @@
+bun lint-staged
+
+bun typecheck
+
