@@ -115,11 +115,12 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "cSpell.words": [
-        "nuxt",
-        "unhead",
-        "unplugin",
         "danwsaps",
         "dhanny",
-        "pramana"
+        "nosniff",
+        "nuxt",
+        "pramana",
+        "unhead",
+        "unplugin"
     ]
 }
