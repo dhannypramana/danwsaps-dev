@@ -1,7 +1,22 @@
 {
     "name": "danwsaps-dev",
     "type": "module",
+    "version": "0.0.0",
     "private": true,
+    "description": "Danwsaps Personal Portfolio",
+    "author": {
+        "name": "Dhanny Pramana",
+        "url": "https://danwsaps.is-a-dev",
+        "email": "p.dhannypramana@gmail.com"
+    },
+    "keywords": [
+        "danwsaps",
+        "portfolio"
+    ],
+    "engines": {
+        "node": ">=22.14.0",
+        "bun": ">= 1.3.1"
+    },
     "scripts": {
         "build": "nuxt build",
         "dev": "nuxt dev",
@@ -12,7 +27,10 @@
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "prepare": "husky",
-        "commit": "cz"
+        "commit": "cz",
+        "bump:patch": "npm --no-git-tag-version version patch",
+        "bump:minor": "npm --no-git-tag-version version minor",
+        "bump:major": "npm --no-git-tag-version version major"
     },
     "dependencies": {
         "nuxt": "^4.4.8",
