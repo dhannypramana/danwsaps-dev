@@ -1,6 +1,14 @@
 export const useThemeStore = defineStore('theme', () => {
-    const value = shallowRef<string>('DARK');
+    const theme = shallowRef<Theme>(THEME.DARK);
+
+    const toggle = () => {
+        theme.value = theme.value === THEME.DARK
+            ? THEME.LIGHT
+            : THEME.DARK;
+    };
+
     return {
-        value,
+        theme,
+        toggle,
     };
 });
