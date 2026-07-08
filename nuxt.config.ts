@@ -18,9 +18,36 @@ export default defineNuxtConfig({
     },
 
     imports: {
+        presets: [
+            {
+                from: 'clsx',
+                imports: [
+                    'clsx',
+                    {
+                        name: 'ClassValue',
+                        type: true,
+                    },
+                ],
+            },
+            {
+                from: 'tailwind-merge',
+                imports: ['twMerge'],
+            },
+            {
+                from: 'class-variance-authority',
+                imports: [
+                    'cva',
+                    {
+                        name: 'VariantProps',
+                        type: true,
+                    },
+                ],
+            },
+        ],
         dirs: [
             'types',
             'constants',
+            'utils',
         ],
     },
 
