@@ -33,6 +33,7 @@
         "bump:major": "npm --no-git-tag-version version major"
     },
     "dependencies": {
+        "@nuxtjs/i18n": "10.4.0",
         "@pinia/nuxt": "0.11.3",
         "@tailwindcss/vite": "^4.3.2",
         "nuxt": "^4.4.8",

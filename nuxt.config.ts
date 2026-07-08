@@ -1,12 +1,13 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 import TailwindCSS from '@tailwindcss/vite';
 
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
 
     modules: [
         '@pinia/nuxt',
         'pinia-plugin-persistedstate/nuxt',
+        '@nuxtjs/i18n',
     ],
 
     vite: {
@@ -42,6 +43,17 @@ export default defineNuxtConfig({
 
     piniaPluginPersistedstate: {
         key: 'persist__%id_postfix',
+    },
+
+    i18n: {
+        defaultLocale: 'en',
+        locales: [
+            {
+                code: 'en',
+                language: 'en-US',
+                file: 'en.yaml',
+            },
+        ],
     },
 
 });
