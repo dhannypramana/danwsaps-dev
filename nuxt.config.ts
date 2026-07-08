@@ -16,6 +16,13 @@ export default defineNuxtConfig({
         ],
     },
 
+    imports: {
+        dirs: [
+            'types',
+            'constants',
+        ],
+    },
+
     devtools: {
         enabled: true,
     },
