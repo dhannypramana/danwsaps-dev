@@ -4,6 +4,18 @@ import TailwindCSS from '@tailwindcss/vite';
 export default defineNuxtConfig({
     compatibilityDate: '2025-07-15',
 
+    modules: [
+        '@pinia/nuxt',
+        'pinia-plugin-persistedstate/nuxt',
+    ],
+
+    vite: {
+        plugins: [
+            // https://github.com/tailwindlabs/tailwindcss
+            TailwindCSS(),
+        ],
+    },
+
     devtools: {
         enabled: true,
     },
@@ -21,11 +33,8 @@ export default defineNuxtConfig({
         './app/styles/index.css',
     ],
 
-    vite: {
-        plugins: [
-            // https://github.com/tailwindlabs/tailwindcss
-            TailwindCSS(),
-        ],
+    piniaPluginPersistedstate: {
+        key: 'persist__%id_postfix',
     },
 
 });
