@@ -33,6 +33,7 @@
         "bump:major": "npm --no-git-tag-version version major"
     },
     "dependencies": {
+        "@nuxt/icon": "2.3.1",
         "@nuxtjs/i18n": "10.4.0",
         "@pinia/nuxt": "0.11.3",
         "@tailwindcss/vite": "^4.3.2",
@@ -41,6 +42,7 @@
         "nuxt": "^4.4.8",
         "pinia": "^3.0.4",
         "pinia-plugin-persistedstate": "^4.7.1",
+        "reka-ui": "^2.10.1",
         "tailwind-merge": "^3.6.0",
         "tailwindcss": "^4.3.2",
         "vue": "^3.5.39",

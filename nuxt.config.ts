@@ -8,6 +8,7 @@ export default defineNuxtConfig({
         '@pinia/nuxt',
         'pinia-plugin-persistedstate/nuxt',
         '@nuxtjs/i18n',
+        '@nuxt/icon',
     ],
 
     vite: {
@@ -49,6 +50,22 @@ export default defineNuxtConfig({
             'constants',
             'utils',
         ],
+    },
+
+    components: [
+        {
+            path: 'components',
+            pathPrefix: false,
+            extensions: ['vue'],
+        },
+    ],
+
+    icon: {
+        provider: 'server',
+        componentName: 'VIcon',
+        serverBundle: {
+            collections: ['lucide'],
+        },
     },
 
     devtools: {
