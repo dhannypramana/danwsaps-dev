@@ -6,4 +6,7 @@ useThemeStore();
     <NuxtLayout>
         <NuxtPage />
     </NuxtLayout>
+    <ClientOnly>
+        <VToast />
+    </ClientOnly>
 </template>

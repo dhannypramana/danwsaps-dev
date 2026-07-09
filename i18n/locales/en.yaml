@@ -1,1 +1,95 @@
-welcome: Welcome to My Website
+introductions:
+    greeting: "Hi, I'm {name}"
+    tagline: Building digital experiences that matter.
+    bio_summary: 'I am a passionate software engineer and designer specializing in creating clean, scalable, and user-centric web applications.'
+    welcome: Welcome to my personal space on the web.
+
+descriptors:
+    featured: Featured
+    latest: Latest
+    recent: Recent
+    present: Present
+    remote: Remote
+    onsite: On-site
+    freelance: Freelance
+    full_time: Full-time
+    part_time: Part-time
+    internship: Internship
+    available: Available for new opportunities
+    unavailable: Currently fully booked
+
+metadata:
+    title: Title
+    role: My Role
+    client: Client
+    timeline: Duration
+    tech_stack: 'Tools & Technologies'
+    category: Category
+    project_type: Project Type
+    date: Date Published
+
+links:
+    live_demo: Live Demo
+    source_code: Source Code
+    case_study: Read Case Study
+    view_all: View All Work
+    see_more: See More
+    get_in_touch: Get in Touch
+    download_cv: Download CV
+    email_me: Email Me
+    follow_me: Follow Me
+
+nouns:
+    work: Work
+    projects: Projects
+    experience: Experience
+    skills: Skills
+    services: Services
+    articles: Articles
+    testimonials: Testimonials
+    about: About
+    contact: Contact
+
+prompts:
+    cta_heading: "Let's Work Together"
+    cta_subheading: Have a project in mind or just want to say hi? Feel free to drop a message!
+    no_results: No items found matching this criteria.
+    loading: Loading amazing things...
+
+form:
+    name: Your Name
+    email: Your Email
+    subject: Subject
+    message: Message
+    sending: Sending message...
+    success: "Message sent successfully! I'll get back to you soon."
+    error: Failed to send. Please try again or reach out directly via email.
+
+legal:
+    copyright: '© {year} {name}. All rights reserved.'
+    built_with: 'Built with {tech}'
+
+states:
+    not_found: Page Not Found
+    empty: No Data Available
+    empty_results: No Results Found
+    empty_pages: Start Creating Your Site
+
+explanations:
+    not_found_desc: 'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.'
+    empty_desc: There is currently no content to display here. Check back again later!
+    empty_search_desc: "We couldn't find anything matching your keywords. Try checking your spelling or using different terms."
+    empty_pages_desc: 'Your workspace is ready, but it looks a bit empty. Kickstart your project by creating a new page from scratch or importing your files.'
+
+redirects:
+    go_home: Back to Home
+    go_back: Go to Previous Page
+    clear_filters: Reset All Filters
+
+visuals:
+    alt_404: Illustration of a lost astronaut in space
+    alt_empty: Illustration of an empty folder
+
+actions:
+    create_page: Create First Page
+    import_pages: Import Existing Pages

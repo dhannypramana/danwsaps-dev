@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 definePageMeta({
-    name: 'index',
+    name: 'catchAll',
     layout: 'blank',
 });
 </script>
@@ -10,17 +10,20 @@ definePageMeta({
         <VEmpty>
             <VEmptyHeader>
                 <VEmptyMedia variant="icon">
-                    <VIcon name="lucide:folder-code" />
+                    <VIcon name="lucide:message-circle-warning" />
                 </VEmptyMedia>
-                <VEmptyTitle>No Pages Yet</VEmptyTitle>
+                <VEmptyTitle class="font-semibold">
+                    {{ $t('states.not_found') }}
+                </VEmptyTitle>
                 <VEmptyDescription>
-                    You haven't created any pages yet. Get started by creating your first pages.
+                    {{ $t('explanations.not_found_desc') }}
                 </VEmptyDescription>
             </VEmptyHeader>
             <VEmptyContent class="flex-row justify-center">
-                <VButton>Create Pages</VButton>
-                <VButton variant="secondary">
-                    Import Pages
+                <VButton as-child>
+                    <NuxtLink to="/">
+                        {{ $t('redirects.go_home') }}
+                    </NuxtLink>
                 </VButton>
             </VEmptyContent>
         </VEmpty>
