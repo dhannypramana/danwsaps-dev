@@ -118,6 +118,7 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "cSpell.words": [
+        "czrc",
         "danwsaps",
         "dhanny",
         "lucide",
@@ -128,6 +129,7 @@
         "pramana",
         "reka",
         "unhead",
-        "unplugin"
+        "unplugin",
+        "versionrc"
     ]
 }

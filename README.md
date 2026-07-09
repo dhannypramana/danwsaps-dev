@@ -64,6 +64,22 @@ Or you want to test based on UI, run the following command
 bun test:ui
 ```
 
+### Component Documentation (Storybook)
+
+To view component documentation and interactive stories, run Storybook:
+
+```bash
+bun story
+```
+
+This will start Storybook at http://localhost:6006
+
+To build Storybook for production:
+
+```bash
+bun build-story
+```
+
 ### Linting
 
 To lint your code and automatically fix the issues, run the following command

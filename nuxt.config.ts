@@ -44,6 +44,19 @@ export default defineNuxtConfig({
                     },
                 ],
             },
+            {
+                from: '@storybook-vue/nuxt',
+                imports: [
+                    {
+                        name: 'StorybookConfig',
+                        type: true,
+                    },
+                    {
+                        name: 'Preview',
+                        type: true,
+                    },
+                ],
+            },
         ],
         dirs: [
             'types',
