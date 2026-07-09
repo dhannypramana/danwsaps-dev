@@ -118,9 +118,11 @@
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "cSpell.words": [
+        "blockqoute",
         "czrc",
         "danwsaps",
         "dhanny",
+        "extralight",
         "lucide",
         "nosniff",
         "nuxt",
