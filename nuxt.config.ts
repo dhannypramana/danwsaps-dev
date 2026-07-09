@@ -55,6 +55,14 @@ export default defineNuxtConfig({
                         name: 'Preview',
                         type: true,
                     },
+                    {
+                        name: 'Meta',
+                        type: true,
+                    },
+                    {
+                        name: 'StoryObj',
+                        type: true,
+                    },
                 ],
             },
         ],
